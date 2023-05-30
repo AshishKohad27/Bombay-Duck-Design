@@ -1,0 +1,134 @@
+.navsec-outer {
+  padding: 55px 0px 0px 52px;
+}
+
+.navsec-bottom {
+  display: flex;
+  gap: 91.41px;
+
+  .navsec-logoborder {
+    width: 219px;
+    height: 170px;
+    position: fixed;
+    top: 87px;
+    left: 52px;
+    z-index: 10;
+  }
+
+  .navsec-logo {
+    width: 219px;
+    height: 170px;
+  }
+  .navsec-title {
+    margin-top: 18px;
+    width: 750px;
+    ul {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      list-style: none;
+      text-align: left;
+      font-size: 35px;
+      color: #00b900;
+      margin-left: -50px;
+      li {
+        margin-left: 5px;
+        margin-right: 5px;
+        a {
+          text-decoration: none;
+          color: #00b900;
+          letter-spacing: 0.1px;
+          line-height: 43px;
+          // font-family: ;
+          &:hover {
+            text-decoration: line-through;
+          }
+        }
+      }
+      li:nth-child(7) {
+        margin-right: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .navsec-outer {
+    padding: 25.33px 35px 0px;
+  }
+  .navsec-bottom {
+    gap: 50px;
+    .navsec-title {
+      ul {
+        font-size: 28px;
+        margin-left: -35px;
+        li:nth-child(7) {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .navsec-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 41.32px;
+    .navsec-title {
+      width: 100%;
+      ul {
+        font-size: 30px;
+        li {
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .navsec-outer {
+    padding: 25.33px 30px 0px;
+  }
+  .navsec-bottom {
+    display: flex;
+    gap: 30px;
+    .navsec-title {
+      margin-top: 0px;
+      ul {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .navsec-outer {
+    padding: 25.33px 20px 0px;
+  }
+  .navsec-bottom {
+    display: flex;
+    gap: 20px;
+
+    .navsec-title {
+      margin-top: 0px;
+      ul {
+        margin-right: -20px;
+        font-size: 20px;
+        li {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .navsec-title {
+    ul {
+      font-size: 18px;
+    }
+  }
+}

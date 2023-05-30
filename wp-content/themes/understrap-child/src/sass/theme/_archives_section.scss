@@ -1,0 +1,78 @@
+.arcsec-outer {
+  padding: 60px 40px 102px;
+}
+
+.arcsec-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 6px;
+  row-gap: 10px;
+  height: auto;
+  .arcsec-img {
+    height: 205px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    video {
+      cursor: pointer;
+      height: 100%;
+    }
+    img {
+      cursor: pointer;
+      height: 100%;
+    }
+
+    .arcsec-imgpop {
+      width: 232px;
+      height: 324px;
+      background-color: white;
+      div {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+          font-size: 21px;
+          color: #00cb40;
+        }
+        h1:nth-child(2) {
+          cursor: pointer;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        font-size: 24px;
+        color: #333333;
+      }
+    }
+    
+    .arcsec-video {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .arcsec-outer {
+    padding: 56px 35px 102px;
+  }
+  .arcsec-inner {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    column-gap: 2px;
+    .arcsec-img {
+      height: 256px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .arcsec-outer {
+    padding: 56px 20px 102px;
+  }
+}

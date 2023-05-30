@@ -1,0 +1,10 @@
+@font-face {
+  font-family: MyCustomFont;
+  src: url("../../fonts/NeueHaasDisplayRoman.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: MyCustomFont, sans-serif;
+}
