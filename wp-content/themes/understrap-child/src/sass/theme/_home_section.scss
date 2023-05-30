@@ -46,6 +46,8 @@
   margin-top: -50px;
   .homesec-project-img {
     margin-left: 40px;
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -68,28 +70,130 @@
 }
 .homesec-project:nth-child(10) {
   .homesec-project-img {
-    margin-right: 25px;
+    margin-left: 25px;
   }
 }
 
-@media all and (min-width: 1201px) and (max-width: 1650px) {
-  .homesec-project:nth-child(2),
-  .homesec-project:nth-child(3),
-  .homesec-project:nth-child(4),
-  .homesec-project:nth-child(5),
-  .homesec-project:nth-child(6),
-  .homesec-project:nth-child(7),
-  .homesec-project:nth-child(8),
-  .homesec-project:nth-child(9),
-  .homesec-project:nth-child(10) {
-    margin-top: 5px;
-    .homesec-project-img {
-      margin-left: 0px;
+@media (max-width: 1750px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 105px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1653px) {
+  .homesec-outer {
+    padding-left: 45px;
+  }
+
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 95px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1520px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 90px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1453px) {
+  .homesec-outer {
+    padding-left: 40px;
+  }
+
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 85px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1374px) {
+  .homesec-outer {
+    padding-left: 35px;
+  }
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 77px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1304px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 70px;
+        }
+      }
     }
   }
 }
 
 @media (max-width: 1200px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 65px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1104px) {
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1050px) {
   .homesec-outer {
     padding: 26px 26px 0px 26px;
   }
@@ -155,6 +259,21 @@
   }
 }
 
+@media (max-width: 650px) {
+  .homesec-outer {
+    padding: 26px 25px 0px;
+  }
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 70px;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 560px) {
   .homesec-project {
     .homesec-project-title {
@@ -168,11 +287,29 @@
 }
 
 @media (max-width: 460px) {
+  .homesec-outer {
+    padding: 26px 20px 0px;
+  }
   .homesec-project {
     .homesec-project-title {
       h1 {
         a {
-          font-size: 40px;
+          font-size: 38px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .homesec-outer {
+    padding: 26px 15px 0px;
+  }
+  .homesec-project {
+    .homesec-project-title {
+      h1 {
+        a {
+          font-size: 35px;
         }
       }
     }
