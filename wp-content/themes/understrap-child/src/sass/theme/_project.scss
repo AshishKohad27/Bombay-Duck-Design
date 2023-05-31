@@ -3,7 +3,7 @@
 }
 
 .prosec-title {
-  margin-top: -80px;
+  margin-top: -70px;
   max-width: 1464px;
   h1 {
     font-size: 112px;
@@ -150,7 +150,6 @@
   }
   .prosec-part2,
   .prosec-part4 {
-
     .prosec-gridItem-1,
     .prosec-gridItem-2,
     .prosec-gridItem-3 {
@@ -167,7 +166,7 @@
   .prosec-title {
     margin-top: -70px;
     h1 {
-      font-size: 95px;
+      font-size: 90px;
     }
   }
 }
@@ -175,7 +174,7 @@
 @media (max-width: 1550px) {
   .prosec-title {
     h1 {
-      font-size: 90px;
+      font-size: 85px;
     }
   }
   .prosec-part1,
@@ -222,9 +221,9 @@
     padding: 0px 40px 134;
   }
   .prosec-title {
-    margin-top: -60px;
+    margin-top: -70px;
     h1 {
-      font-size: 80px;
+      font-size: 75px;
     }
   }
   .prosec-part1,
@@ -269,7 +268,7 @@
   }
   .prosec-title {
     h1 {
-      font-size: 77px;
+      font-size: 70px;
     }
   }
 }
@@ -279,9 +278,9 @@
     padding: 0px 35px 124px;
   }
   .prosec-title {
-    margin-top: -60px;
+    margin-top: -70px;
     h1 {
-      font-size: 70px;
+      font-size: 65px;
     }
   }
   .prosec-part1,
@@ -289,6 +288,7 @@
   .prosec-part5 {
     gap: 30px;
     .prosec-gridItem {
+      width: 50%;
       height: 450px;
     }
   }
@@ -321,10 +321,14 @@
 }
 
 @media (max-width: 1150px) {
+  .prosec-title {
+    margin-top: -85px;
+  }
   .prosec-part1,
   .prosec-part3,
   .prosec-part5 {
     .prosec-gridItem {
+      width: 50%;
       height: 400px;
     }
   }
@@ -349,7 +353,7 @@
 
 @media (max-width: 1050px) {
   .prosec-outer {
-    padding: 140px 30px 86px;
+    padding: 00px 30px 86px;
   }
 
   .prosec-title {
@@ -429,6 +433,7 @@
   }
 
   .prosec-title {
+    margin-top: 0px;
     h1 {
       font-size: 62px;
     }
@@ -490,7 +495,7 @@
 
 @media (max-width: 460px) {
   .prosec-outer {
-    padding: 120px 20px 86px;
+    padding: 0px 20px 86px;
   }
 
   .prosec-title {
@@ -547,7 +552,7 @@
 
 @media (max-width: 400px) {
   .prosec-outer {
-    padding: 120px 15px 86px;
+    padding: 0px 15px 86px;
   }
   .prosec-title {
     h1 {

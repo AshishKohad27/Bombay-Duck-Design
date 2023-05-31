@@ -36,18 +36,20 @@ $navbar_type = get_theme_mod('understrap_navbar_type', 'collapse');
 			<!-- Navbar section -->
 			<header class="navsec-outer">
 				<div class="navsec-bottom">
-					<!-- <div class="navsec-logoborder">
-						<svg width="219.047" height="170.398" viewBox="0 0 219.047 170.398">
-							<path id="Path_29" data-name="Path 29"
-								d="M219.047,86.148,194.121,66.7a36.5,36.5,0,0,0-57.029-44.5L108.65,0,82.637,20.623A36.505,36.505,0,0,0,26.47,65.16L0,86.148,25.692,106.07a36.5,36.5,0,0,0,56.2,43.576L108.65,170.4l29.167-22.259a36.506,36.506,0,0,0,57.168-43.628ZM154.26"
-								transform="translate(0 0.001)" fill="transparent" stroke="#00b900" stroke-width="3" />
-						</svg>
-					</div> -->
-
+					<div class="navsec-logoborder">
+						<a href="./home">
+							<svg viewBox="0 0 219.047 170.398">
+								<path id="Path_29" data-name="Path 29"
+									d="M219.047,86.148,194.121,66.7a36.5,36.5,0,0,0-57.029-44.5L108.65,0,82.637,20.623A36.505,36.505,0,0,0,26.47,65.16L0,86.148,25.692,106.07a36.5,36.5,0,0,0,56.2,43.576L108.65,170.4l29.167-22.259a36.506,36.506,0,0,0,57.168-43.628ZM154.26"
+									transform="translate(0 0.001)" fill="transparent" stroke="#00b900"
+									stroke-width="3" />
+							</svg>
+						</a>
+					</div>
 					<div class="navsec-logo">
 						<a href="./home">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								width="219.047" height="170.398" viewBox="0 0 219.047 170.398">
+								viewBox="0 0 219.047 170.398">
 								<defs>
 									<clipPath id="clip-path">
 										<rect id="Rectangle_26" data-name="Rectangle 26" width="219.047"

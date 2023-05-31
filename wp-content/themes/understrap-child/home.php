@@ -1,5 +1,6 @@
 <?php /* Template Name: HomePage */?>
 <?php get_header(); ?>
+
 <!-- Home Section -->
 <section class="homesec-outer">
     <div class="site-container">
