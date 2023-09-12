@@ -26,7 +26,7 @@ define( 'DB_NAME', 'bombay-duck-design' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'pramod@123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
